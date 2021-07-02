@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  text-shadow: 2px 2px 10px black, -2px -2px 10px black, 2px -2px 10px black,
+    -2px 2px 10px black;
+  /* text-shadow: -2px -2px 0px black; */
+}
+
+main {
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+div.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1#time {
+  font-size: 4rem;
+  text-align: center;
+}
+
+#crypto {
+  font-size: 1.5rem;
+}
+
+#crypto-top {
+  display: flex;
+  align-items: center;
+}
+
+#crypto-top p {
+  margin-left: 0.5em;
+  font-size: 2rem;
+}
+
+#crypto p {
+  margin: 0.2em;
+}
+
+#weather {
+  display: flex;
+  align-items: center;
+}
+
+#weather img {
+  width: 5rem;
+}
+
+#weather h2 {
+  font-size: 2rem;
+}
+
+#city-name p {
+  margin: 0;
+  font-size: 1.6rem;
+}
